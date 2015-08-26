@@ -1,0 +1,25 @@
+{
+  "name": "getStarter-Polymer",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Enrique199413/getStarter-Polymer",
+  "authors": [
+    "enrique199413 <enrique199413@gmail.com>"
+  ],
+  "description": "Polymer for dummies and me",
+  "main": "demo/index.html",
+  "keywords": [
+    "polymer",
+    "javascript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  }
+}
