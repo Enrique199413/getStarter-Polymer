@@ -1,0 +1,20 @@
+<link rel="import" href="./bower_components/polymer/polymer.html">
+
+<dom-module  id = 'ejemplo-polymer'>
+  <template>
+    <p>
+      Hola! superpato <strong>{{who}}</strong>
+    </p>
+  </template>
+</dom-module>
+<script charset="utf-8">
+Polymer({
+  is: "ejemplo-polymer",
+  properties: {
+    who: {
+      type: String,
+      value: 'asd'
+    }
+  }
+});
+</script>
